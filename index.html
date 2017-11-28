@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.4.css" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.ganttView.css" />
+        <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css"> 
+        <style type="text/css">
+            body {
+                font-family: tahoma, verdana, helvetica;
+                font-size: 0.8em;
+                padding: 10px;
+            }
+            .jqs .jqs-remove {
+                display: none;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 14px;
+                width: 14px;
+                cursor: pointer;
+            }
+        </style>
+        <title>Gantt Project App</title>
+    </head>
+    <body>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Gantt Project App : Plan your project </h1>
+                    <p class="lead">Gantt Project App's Data solution build on top of ArcTop Labs #DataSolution #MasterDataNode EcoSystem</p>
+                    
+
+
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:5px">
+                <div class="col-md-6"><a class="btn btn-warning" id="again" href="">Build Random Plan</a></div>
+                <div class="col-md-4">
+                    <select id="planName" name="planName" class="form-control float-right">
+                        <option value="Basic Plan">Basic Plan</option>
+                        <option value="General Plan">General Plan</option>
+                        <option value="Sample Plan">Sample Plan</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <a class="btn btn-warning  float-left" id="plan" href="" >Plan Make</a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div id="ganttChart"></div>
+                <br/><br/>
+                <div id="eventMessage"></div>
+            </div>
+        </div>
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <!--<script type="text/javascript" src="js/jquery-1.4.2.js"></script>-->
+        <script type="text/javascript" src="js/date.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.4.js"></script>
+        <script type="text/javascript" src="js/jquery.ganttView.js"></script>
+        <script type="text/javascript" src="js/data.js"></script>
+        <script type="text/javascript" src="js/arctoplabs.js"></script>
+    </body>
+</html>
