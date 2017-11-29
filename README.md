@@ -1,6 +1,6 @@
-# Gantt Project App
+# Gantt Project planing App
 
-The Gantt Project App is HTML5, jquery application build on top of MasterDataNode Data solution technology. 
+The Gantt Project planing App is HTML5, jquery application build on top of MasterDataNode Data solution technology. 
 This Gantt Project App keep track your task, showing them in Gantt Chart view. This is persistent in nature and your created plan task
  will be there the next time you open up the app. The app uses ArcTop Labs : MasterDataNode Data Solution
 feature in order to store the Tasks.
